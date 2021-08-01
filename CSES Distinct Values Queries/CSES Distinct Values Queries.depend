@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1585085568 source:c:\users\usuario\desktop\cses distinct values queries\main.cpp
+	<iostream>
+	<map>
+	<bitset>
+	<vector>
+	<unordered_map>
+	<cstdio>
+	<algorithm>
+	<cstring>
+
