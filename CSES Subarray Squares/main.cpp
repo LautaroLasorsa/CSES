@@ -45,7 +45,7 @@ intl in[4000];
 int n,k;
 pair<intl,intl> dp[4000];
 pair<intl,intl> Intento(intl m){
-    forn(i,n+1) dp[i] = {(intl)1e18,(intl)1e18};
+    forn(i,n+1) dp[i] = {(intl)1e16,(intl)1e16};
     dp[0] = {0ll,0ll};
     forn(i,n)
     {
@@ -87,30 +87,31 @@ int main()
         intl res = 0;
         forn(i,n) res += 1ll*in[i]*in[i];
         cout<<res<<endl;
+        return 0;
     }
-    intl l = 0, r = 1e18;
+    intl l = 0, r = 1e16;
     while(r-l-1){
         intl m = (l+r)/2;
         auto val = Intento(m);
-        /*DBG(val);
-        DBG(l);
-        DBG(r);
-        DBG(m);
-        forn(i,n+1) DBG(dp[i]);
-        cout<<endl;*/
+        //DBG(val);
+        //DBG(l);
+        //DBG(r);
+        //DBG(m);
+        //forn(i,n+1) DBG(dp[i]);
+        //cout<<endl;
         if(-val.second>k) l = m;
         else r = m;
     }
-    DP();
-    forsn(v,r-2,r+2){
+    //DP();
+    /*forsn(v,r-2,r+2){
         auto ret = Intento(v);
         cout<<v<<" >> "<<ret<<" : "<<(ret.first+v*ret.second)<<endl;
         forsn(i,1,n+1) cout<<dp[i]<<"+";
         cout<<endl;
-    }
-    DBG(r);
-    auto val = Intento(r);
-    intl res = val.first + r*val.second;
+    }*/
+    //DBG(r);
+    auto val = Intento(l);
+    intl res = val.first - l*k;
     cout<<res<<endl;
     return 0;
 }
