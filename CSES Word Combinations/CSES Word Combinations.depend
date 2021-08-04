@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1573085026 source:c:\users\usuario\desktop\cses word combinations\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<queue>
+	<map>
+

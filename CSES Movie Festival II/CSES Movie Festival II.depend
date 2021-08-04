@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1560900063 source:c:\users\usuario\desktop\trambolico día 4\cses movie festival ii\main.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<queue>
+	<vector>
+

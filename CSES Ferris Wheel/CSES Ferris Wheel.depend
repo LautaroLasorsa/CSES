@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1559078033 source:c:\users\usuario\desktop\trambolico día 4\cses ferris wheel\main.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+

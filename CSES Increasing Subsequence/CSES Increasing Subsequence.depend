@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1560291847 source:c:\users\usuario\desktop\trambolico día 4\cses increasing subsequence\main.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+

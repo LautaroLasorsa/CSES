@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1559093417 source:c:\users\usuario\desktop\trambolico día 4\cses concert tickets\main.cpp
+	<iostream>
+	<vector>
+	<cstdio>
+	<algorithm>
+

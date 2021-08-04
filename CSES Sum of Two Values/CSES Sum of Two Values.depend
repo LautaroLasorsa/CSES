@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1560813285 source:c:\users\usuario\desktop\trambolico día 4\cses sum of two values\main.cpp
+	<iostream>
+	<map>
+	<cstdio>
+	<algorithm>
+
